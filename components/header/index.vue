@@ -38,6 +38,7 @@ import '../../assets/css/globals.css'
   justify-content: center;
 
   h1 {
+    color: var(--secondary-color);
     font-size: 1.4rem;
 
   }
@@ -59,9 +60,12 @@ import '../../assets/css/globals.css'
   /* background-color: blueviolet; */
   width: 30vw;
   gap: 1rem;
+
   >li {
     transition: color 300ms linear;
     font-size: 1rem;
+    color: var(--secondary-color);
+
     &:hover {
       cursor: pointer;
       color: var(--primary-color)
