@@ -1,3 +1,5 @@
 :root {
-    --main-bg-color: brown;
-  }
+  --main-bg-color: linear-gradient(#000000 0%, rgb(0, 0, 0) 99.4%);
+  --primary-color:  #63d471;
+  --secondary-color: #f3ecea;
+}
